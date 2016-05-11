@@ -9,3 +9,7 @@
 3. Add element to array at the start
 
    arr.unshift("element");
+   
+4. Remove element from array at the start
+
+  arr.shift();
