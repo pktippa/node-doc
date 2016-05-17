@@ -29,3 +29,46 @@
    var arr =  str.split(''); // [ '1', '3', '4', '5', '6', '7', '7', '8' ]
    arr.map(Number); // [ 1, 3, 4, 5, 6, 7, 7, 8 ]    
    
+   
+7. Get max/min of array
+   var arr = [ 1, 3, 4, 5, 6, 7, 7, 8 ];
+   
+   // Method 1 - this will fail For big arrays (~10^7 elements) gives RangeError: Maximum call stack size exceeded
+    
+   var maxVal = Math.max.apply(Math,arr);
+   var minVal = Math.min.apply(Math,arr);
+   
+   // Method 2 - another implementation
+   
+   function arrayMin(arr) {
+     return arr.reduce(function (p, v) {
+       return ( p < v ? p : v );
+     });
+   }
+   function arrayMax(arr) {
+     return arr.reduce(function (p, v) {
+       return ( p > v ? p : v );
+     });
+   }
+   
+   // Method 3 - more performant
+   
+   function arrayMin(arr) {
+     var len = arr.length, min = Infinity;
+     while (len--) {
+       if (arr[len] < min) {
+         min = arr[len];
+       }
+     }
+     return min;
+   };
+
+   function arrayMax(arr) {
+     var len = arr.length, max = -Infinity;
+     while (len--) {
+       if (arr[len] > max) {
+         max = arr[len];
+       }
+     }
+     return max;
+   };
