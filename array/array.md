@@ -72,3 +72,23 @@
      }
      return max;
    };
+   
+8. Sort
+   
+   // Strings
+   var fruits = ["Banana", "Orange", "Apple", "Mango"];
+   fruits.sort(); // fruits will be assigned to  - Apple,Banana,Mango,Orange
+   
+   // Numbers
+   var nums = [0,1,7,10,9,14];
+   nums.sort(); // nums will be assigned to [ 0, 1, 10, 14, 7, 9 ] - sorted based on chars
+   
+   // Ascending order
+   nums.sort(function(a,b){return a-b;}); // nums will be assigned to [ 0, 1, 7, 9, 10, 14 ]
+ - sorted based on values in ascending
+ 
+   // Descending order
+   nums.sort(function(a,b){return b-a;}); // nums will be assigned to [ 14, 10, 9, 7, 1, 0 ]
+ - sorted based on values in descending
+ 
+   
