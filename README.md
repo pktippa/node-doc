@@ -6,3 +6,4 @@
 4. [Child Process](childprocess/childprocess.md);
 5. [Console](console/console.md)
 6. [Numbers](numbers/numbers.md)
+7. [Time](time/time.md)

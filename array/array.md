@@ -91,4 +91,9 @@
    nums.sort(function(a,b){return b-a;}); // nums will be assigned to [ 14, 10, 9, 7, 1, 0 ]
  - sorted based on values in descending
  
+9. Element existence
+
+   var element = 'one';
+   var arr = ['zero', 'one', 'two', 'three'];
    
+   arr.indexOf(element); // Returns index of element if exists or returns -1
