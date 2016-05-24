@@ -7,3 +7,5 @@
 5. [Console](console/console.md)
 6. [Numbers](numbers/numbers.md)
 7. [Time](time/time.md)
+8. [Environment](environment/environment.md)
+9. [Class](class/class.md)

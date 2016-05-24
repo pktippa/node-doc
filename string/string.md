@@ -9,3 +9,7 @@
 
    var s = ['H', 'e', 'l', 'l', 'o'];
    s.join("");   
+   
+4. Replace all forward slashes with back slashes
+
+   s = s.replace(/\\/g,'/');

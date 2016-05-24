@@ -97,3 +97,18 @@
    var arr = ['zero', 'one', 'two', 'three'];
    
    arr.indexOf(element); // Returns index of element if exists or returns -1
+   
+   
+10. Stack and Queue
+
+   // Stack
+   var stack = [];
+   stack.push(2);       // stack is now [2]
+   stack.push(5);       // stack is now [2, 5]
+   var i = stack.pop(); // stack is now [2]
+   
+   // Queue
+   var queue = [];
+   queue.push(2);       // queue is now [2]
+   queue.push(5);       // queue is now [2, 5]
+   var i = queue.shift(); // queue is now [5]
