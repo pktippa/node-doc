@@ -9,3 +9,6 @@
 7. [Time](time/time.md)
 8. [Environment](environment/environment.md)
 9. [Class](class/class.md)
+10. [Yaml](yaml/yaml.md)
+11. [File](file/file.md)
+12. [Function](function/function.md)
