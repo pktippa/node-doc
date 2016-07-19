@@ -13,3 +13,13 @@
 4. Replace all forward slashes with back slashes
 
    s = s.replace(/\\/g,'/');
+
+5. Converting string to number
+
+   var str = "10";
+   var num = parseInt(str);
+   if(num === 10){
+      \\ Parsed successfully
+   }
+
+6. Converting string to boolean

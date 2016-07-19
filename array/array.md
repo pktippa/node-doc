@@ -112,3 +112,10 @@
    queue.push(2);       // queue is now [2]
    queue.push(5);       // queue is now [2, 5]
    var i = queue.shift(); // queue is now [5]
+
+11. Check object is array or not
+
+  var x = {"a":1, "b":1};
+  console.log(Array.isArray(x));
+  x = ["a", "b"];
+  console.log(Array.isArray(x));

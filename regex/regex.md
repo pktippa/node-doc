@@ -12,3 +12,10 @@
              `;
   var regex = /^Middle Name: ([a-zA-Z ]+)/m;
   var match = str.match(regex);
+
+3. Match with alpha numeric only.
+    var str = 'pradeep123';
+    var str2 = 'kumar-1_';
+    var reg = /^[a-zA-Z0-9]+$/;
+    console.log(str.match(reg));
+    console.log(str2.match(reg));
